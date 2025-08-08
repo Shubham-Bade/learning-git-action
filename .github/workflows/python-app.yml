@@ -9,3 +9,10 @@ jobs:
     steps:
       - name: Show currunt working directory
         run: pwd
+
+      - run: ls -la
+
+      - name: Create and display a text file
+        run:
+          echo "this is a demo file"> demo.txt
+          cat demo.txt
