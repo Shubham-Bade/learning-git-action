@@ -6,6 +6,6 @@ jobs:
   demo-commands:
     runs-on: ubuntu-latest
 
-steps:
-- name: Show currunt working directory
-  run: pwd
+    steps:
+      - name: Show currunt working directory
+        run: pwd
