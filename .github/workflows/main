@@ -2,9 +2,8 @@ name: Print Current Date and Time
 
 on:
   schedule:
-    # Run every 15 minutes
     - cron: "*/15 * * * *"
-  workflow_dispatch:  # Allows manual trigger too
+  workflow_dispatch:  
 
 jobs:
   print-datetime:
